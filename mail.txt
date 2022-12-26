@@ -1,0 +1,67 @@
+Delivered-To: anonnimnaka@gmail.com
+Received: by 2002:a05:7000:1393:0:0:0:0 with SMTP id u19csp4324500mal;
+        Mon, 30 May 2022 10:11:33 -0700 (PDT)
+X-Google-Smtp-Source: ABdhPJzBnOM7Or22cBL6FwUwRgP+jIRj7RUnO3mWcwhAKfqPnFfonWX9d76BLS2IL5jSkOL6Cmqw
+X-Received: by 2002:a05:620a:89b:b0:6a3:62b8:83c4 with SMTP id b27-20020a05620a089b00b006a362b883c4mr31952035qka.676.1653930693770;
+        Mon, 30 May 2022 10:11:33 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1653930693; cv=none;
+        d=google.com; s=arc-20160816;
+        b=T4Wlcz8sninSu15W3EZ7rNHY6g+XuITA5Lq0apcypnQTS/oqWuHELISV8Gi3fr0Zya
+         kDy9+obHtSv9fAQO9w3Ce5ZZgxy7GaAJGmBkHjW2NYvLjgbLIlKWVoledW5HMEIw6RY1
+         HpCW4iHk2oYoAAshlMZWFSSt8ESAUr9r69nJTk+JFjbEIJdnHOKVgdkp2cpKyBO2Wa5Y
+         18tbwpNr+w71f6cdJiWF7lOjp0PdECfawOoQs9E0c9pALr1W/9S5nhTNWWZTkWeHqlRW
+         eaToiOBWxMSqSJqspuO/5U7r1kUxGCjnwJ0uMsJPwzf+IAsXmC+9JJE6lfgnLQqj0FvK
+         TAWg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=feedback-id:message-id:list-id:reply-to:mime-version
+         :list-unsubscribe-post:list-unsubscribe:date:subject:to:from
+         :dkim-signature;
+        bh=t12+MWwLKqbbNU/p+m3DoRLG6kiLL1QBBN1X0j2yB0Q=;
+        b=MFPkEntPy09324G3UebAhR69HfYcHDalbAcmenYx7+g9HHGd0NFHFGNpw72OYD9GnV
+         9dX+8Bxyf7JGqdjo7mDgBYmjbZyPxDsEPRD6xs5lYzR60ODCyVsMYpDYa4S1KFQycRNX
+         zCxRK1R2Q3a0fcrNY3vaRkCsumsBgem/83w0s22O4X6wqp9/WE/j79u18neuMGX/JJMD
+         18SF6aVJIEX9eBkfTXwH5ds/+KQJBO5pJ8bR3SSdeNvl505KNsoNVV6eZ6s8zoQupYGZ
+         w1dT6qZpN7qZOepmqWJjl20V2a0tl2wjRH62rYJOC0rbV1nPrIbPUnWh3tCB2XacmiKs
+         p5aw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@email.coursera.org header.s=11dkim1 header.b=2Q5GOOnB;
+       spf=pass (google.com: domain of bounce-20_html-14767176-14119-514003089-24401@bounce.email.coursera.org designates 13.111.170.28 as permitted sender) smtp.mailfrom=bounce-20_HTML-14767176-14119-514003089-24401@bounce.email.coursera.org;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=email.coursera.org
+Return-Path: <bounce-20_HTML-14767176-14119-514003089-24401@bounce.email.coursera.org>
+Received: from mta13.email.coursera.org (mta13.email.coursera.org. [13.111.170.28])
+        by mx.google.com with ESMTPS id s13-20020a05622a178d00b002f3bd335a22si7749402qtk.460.2022.05.30.10.11.33
+        for <anonnimnaka@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 30 May 2022 10:11:33 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce-20_html-14767176-14119-514003089-24401@bounce.email.coursera.org designates 13.111.170.28 as permitted sender) client-ip=13.111.170.28;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@email.coursera.org header.s=11dkim1 header.b=2Q5GOOnB;
+       spf=pass (google.com: domain of bounce-20_html-14767176-14119-514003089-24401@bounce.email.coursera.org designates 13.111.170.28 as permitted sender) smtp.mailfrom=bounce-20_HTML-14767176-14119-514003089-24401@bounce.email.coursera.org;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=email.coursera.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=11dkim1; d=email.coursera.org; h=From:To:Subject:Date:List-Unsubscribe:List-Unsubscribe-Post:MIME-Version: Reply-To:List-ID:X-CSA-Complaints:Message-ID:Content-Type; i=Coursera@email.coursera.org; bh=t12+MWwLKqbbNU/p+m3DoRLG6kiLL1QBBN1X0j2yB0Q=; b=2Q5GOOnBGBD7aKC8ggpueC3ZPvGONHdfV7R9XG9PnNSLIvXbqTqqMHdEUEaJDzHwfhR7xyGMjm3j
+   LP9cFbZxiKyhtj64tHfiIn4Zc4AUb97dotHYPTguPYMnYcdIsfNtVsIpA3vOWsxdDegmBbKoNcMq
+   eSAs/2XMhjktNwRkSgIAonfDTgXMACShjXmWijzafWOX/cf3SnYLyyYlYksUfLR/J8Eom85KsExt
+   SHB2nwkBmBVsgj0aWQcY6ME+WtxUa+xsuSDwotsmUt0vDgiOGzn8fDrrY7F2Q4dg4EpQ+GyQcsoa
+   B61bNu63WgAtrgQbSPR3EZUbHVjf15hpX7kk4Q==
+Received: by mta13.email.coursera.org id hijtca2fmd4p for <anonnimnaka@gmail.com>; Mon, 30 May 2022 17:11:32 +0000 (envelope-from <bounce-20_HTML-14767176-14119-514003089-24401@bounce.email.coursera.org>)
+From: Coursera <Coursera@email.coursera.org>
+To: <anonnimnaka@gmail.com>
+Subject: Recommended: Logging, Monitoring and Observability in Google Cloud
+Date: Mon, 30 May 2022 11:11:31 -0600
+List-Unsubscribe: <https://click.email.coursera.org/subscription_center.aspx?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtaWQiOiI1MTQwMDMwODkiLCJzIjoiMTQ3NjcxNzYiLCJsaWQiOiIyMCIsImoiOiIxNDExOSIsImpiIjoiMjQ0MDEiLCJkIjoiMTEwMDEyIn0.fDDpDBLFz3x2MC7aABpLJTxQ8kvbUOJR8vCtwMWS718>, <mailto:leave-fd8916701a3c402029-fe5815747262037c7212-feff157474650d-fe3111717164047e751c79-ff041674716405@leave.email.coursera.org>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+x-CSA-Compliance-Source: SFMC
+MIME-Version: 1.0
+Reply-To: "Coursera (2nd Org)" <reply-feff157474650d-20_HTML-14767176-514003089-24401@email.coursera.org>
+List-ID: <514003089.xt.local>
+X-CSA-Complaints: csa-complaints@eco.de
+x-messageKey: f59213fe-7c15-442c-96f6-ff01e1207dbc
+X-SFMC-Stack: 11
+x-job: 514003089_14119
+Message-ID: <4a1f4611-daca-471f-936f-1fbf908e0d02@atl1s11mta339.xt.local>
+Feedback-ID: 514003089:14119:13.111.170.28:sfmktgcld
+Content-Type: multipart/alternative; boundary="EvDVWHICR3qH=_?:"
+
+--EvDVWHICR3qH=_?:
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
