@@ -6,5 +6,5 @@ This application can analyse your network traffic, and it can also manage your s
 ![View 01](https://pbs.twimg.com/media/Fk41Z-LXwAE9p98?format=jpg&name=large)
 ![View 02 status bar](https://pbs.twimg.com/media/Fk41xiXWYAAPRCQ?format=png&name=large)
 ![View 03 status bar 02 ](https://pbs.twimg.com/media/Fk42ukuXgAE8qul?format=jpg&name=large)
-![View 04 traffic](https://twitter.com/MNimnaka/status/1607284135067779074/photo/1)
+![View 04 traffic](https://pbs.twimg.com/media/Fk44Y6sWAAEQwhY?format=png&name=medium)
 
