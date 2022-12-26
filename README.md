@@ -10,9 +10,9 @@ This application can analyse your network traffic, and it can also manage your s
 
 Group members
 --------------
-@wenupa 
+@wenupa()
 @manuja 
 @rashini 
 @vehara 
-@salindi
+@salindi(https://github.com/Salindi)
 
