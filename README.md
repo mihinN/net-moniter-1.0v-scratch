@@ -12,7 +12,7 @@ Group members
 --------------
 ![Wenupa](https://github.com/wenupa)
 ![Manuja](https://github.com/manuja29)
-![Rashini] 
-![Vehara] (https://github.com/VeharaW)
+Rashini
+![Vehara](https://github.com/VeharaW)
 ![Salindi](https://github.com/Salindi)
 
