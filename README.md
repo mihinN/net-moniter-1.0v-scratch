@@ -14,5 +14,5 @@ Group members
 @manuja 
 @rashini 
 @vehara 
-@salindi(https://github.com/Salindi)
+![Salindi](https://github.com/Salindi)
 
