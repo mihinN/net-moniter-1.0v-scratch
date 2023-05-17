@@ -11,11 +11,11 @@ This application can analyse your network traffic, and it can also manage your s
 Group members
 --------------
 
-##### ![Wenupa](https://github.com/wenupa)
-##### ![Manuja](https://github.com/manuja29)
-##### Rashini
-##### ![Vehara](https://github.com/VeharaW)
-##### ![Salindi](https://github.com/Salindi)
+![Wenupa](https://github.com/wenupa)
+![Manuja](https://github.com/manuja29)
+Rashini
+![Vehara](https://github.com/VeharaW)
+![Salindi](https://github.com/Salindi)
 
 
 
