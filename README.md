@@ -10,7 +10,7 @@ This application can analyse your network traffic, and it can also manage your s
 
 Group members
 --------------
-<a href="https://github.com/wenupa">Wenupa</a> <br>
+<a href="https://github.com/we19z">Wenupa</a> <br>
 <a href="https://github.com/manuja29">Manuja</a> <br>
 <a href="">Rasini </a> <br>
   <a href="https://github.com/VeharaW">Vehara </a><br>
