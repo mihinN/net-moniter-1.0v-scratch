@@ -10,12 +10,11 @@ This application can analyse your network traffic, and it can also manage your s
 
 Group members
 --------------
-
-![Wenupa](https://github.com/wenupa)
-![Manuja](https://github.com/manuja29)
-Rashini
-![Vehara](https://github.com/VeharaW)
-![Salindi](https://github.com/Salindi)
+<a href="https://github.com/wenupa">Wenupa</a> <br>
+<a href="https://github.com/manuja29">Manuja</a> <br>
+<a href="">Rasini </a> <br>
+  <a href="https://github.com/VeharaW">Vehara </a><br>
+  <a href="https://github.com/Salindi">Salindi</a><br>
 
 
 
